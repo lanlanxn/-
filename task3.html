@@ -7,78 +7,73 @@
     <title>task3</title>
     <style>
         .box {
-            width: 95%;
+
             background-color: #eee;
-            padding: 20px 20px;
-            margin: 0 auto;
-            margin-top: 20px;
-            overflow: hidden;
-            border: 1px solid;
-            position: relative;
-            min-height: 600px;
-            min-width: 900px;
+            margin：20px;
+            width: 100%;
+            height: 400px;
+            display: flex;
         }
 
         .box .left {
-            padding: 20px;
+            margin: 20px;
             background-color: white;
-            width: 130px;
-            position: absolute;
-            border: 1 solid white;
+            width: 200px;
+            height: 100px;
         }
 
         .box .left>span {
             float: right;
         }
-
+        .box .left>img {
+            margin-left:50px;
+        }
         .box .center {
-            border: 1 solid white;
-            width: 850px;
-            padding: 20px;
-            margin: 0px 140px 0px 200px;
-            position: relative;
+            flex: 1;
+            height: 300px;
+            margin: 20px;
             background-color: white;
 
         }
 
         .box .right {
-            width: 100px;
-            padding: 10px;
+            width: 150px;
+            height:300px;
             margin: 20px;
-            position: absolute;
             background-color: white;
-            border: 1 solid white;
-            right: 20px;   
-            top: 0px;
+
+
         }
 
-        .box .right>ul li{
+        .box .right>ul li {
             margin-bottom: 15px;
             list-style: none;
         }
-       
-           </style>
+    </style>
 </head>
 
 <body>
     <div class="box">
-    <div class="left">
-        <img src="星空.jpg" alt="星空" width="60px" height="60px" /><span>团队名称</span>
+        <div class="left">
+            
+            <img src="星空.jpg" alt="星空" width="60px" height="60px" />
+            <span>团队名称</span>
+        </div>
+        <div class="center">
+            <h1>什么队伍</h1>
+            <p>队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,</p><br>
+            <h1>队员介绍</h1>
+            <p>队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,
+            </p>
+        </div>
+        <div class="right">
+            <ul>
+                <li><img src="星空.jpg" alt="星空" width="60px" height="60px" /></li>
+                <li><img src="星空.jpg" alt="星空" width="60px" height="60px" /></li>
+                <li><img src="星空.jpg" alt="星空" width="60px" height="60px" /></li>
+            </ul>
+        </div>
     </div>
-    <div class="center">
-        <h1>什么队伍</h1>
-        <p>队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,</p><br>
-        <h1>队员介绍</h1>
-        <p>队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,队伍介绍以及主要期望,
-        </p>
-    </div>
-    <div class="right">
-        <ul>
-            <li><img src="星空.jpg" alt="星空" width="60px" height="60px" /></li>
-            <li><img src="星空.jpg" alt="星空" width="60px" height="60px" /></li>
-            <li><img src="星空.jpg" alt="星空" width="60px" height="60px" /></li>
-        </ul>
-    </div></div>
 </body>
 
 </html>
